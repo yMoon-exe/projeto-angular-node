@@ -1,14 +1,23 @@
 {
-  "name": "backend",
+  "name": "meu-projeto",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yMoon-exe/projeto-angular-node.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/yMoon-exe/projeto-angular-node/issues"
+  },
+  "homepage": "https://github.com/yMoon-exe/projeto-angular-node#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
