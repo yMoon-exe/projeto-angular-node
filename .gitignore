@@ -1,0 +1,9 @@
+# Ignorar node_modules
+backend/node_modules/
+
+# Ignorar arquivos de ambiente
+backend/.env
+
+# Angular futuramente
+frontend/node_modules/
+dist/
